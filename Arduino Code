@@ -1,0 +1,104 @@
+// C++ code
+// LED pins
+int redPin = 3;
+int greenPin = 5;
+int bluePin = 6;
+
+// Button pins
+int redBtn = 2;
+int yellowBtn = 4;
+int greenBtn = 7;
+int allBtn = 8;
+int whiteBtn = 9;
+
+// Mode tracking
+int currentMode = 0;
+
+void setup() {
+pinMode(redPin, OUTPUT);
+pinMode(greenPin, OUTPUT);
+pinMode(bluePin, OUTPUT);
+
+pinMode(redBtn, INPUT_PULLUP);
+pinMode(yellowBtn, INPUT_PULLUP);
+pinMode(greenBtn, INPUT_PULLUP);
+pinMode(allBtn, INPUT_PULLUP);
+pinMode(whiteBtn, INPUT_PULLUP);
+}
+
+void loop() {
+
+if (digitalRead(redBtn) == LOW) {
+toggleMode(1);
+delay(200);
+}
+
+if (digitalRead(yellowBtn) == LOW) {
+toggleMode(2);
+delay(200);
+}
+
+if (digitalRead(greenBtn) == LOW) {
+toggleMode(3);
+delay(200);
+}
+
+if (digitalRead(allBtn) == LOW) {
+toggleMode(4);
+delay(200);
+}
+
+if (digitalRead(whiteBtn) == LOW) {
+toggleMode(5);
+delay(200);
+}
+
+updateLights();
+}
+
+// Toggle logic
+void toggleMode(int mode) {
+if (currentMode == mode) {
+currentMode = 0; // turn off
+} else {
+currentMode = mode;
+}
+}
+
+// Set colors
+void updateLights() {
+
+switch(currentMode) {
+
+case 0: // OFF
+setColor(0, 0, 0);
+break;
+
+case 1: // RED
+setColor(255, 0, 0);
+break;
+
+case 2: // YELLOW
+setColor(255, 150, 0);
+break;
+
+case 3: // GREEN
+setColor(0, 255, 0);
+break;
+
+case 4: // ALL (traffic light look)
+setColor(255, 255, 0);
+break;
+
+case 5: // WHITE
+setColor(255, 255, 255);
+break;
+}
+}
+
+// RGB control
+void setColor(int r, int g, int b) {
+analogWrite(redPin, r);
+analogWrite(greenPin, g);
+analogWrite(bluePin, b);
+}
