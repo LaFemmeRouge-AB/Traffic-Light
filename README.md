@@ -1,6 +1,7 @@
 # Traffic-Light
 This is an LED light that looks like a traffic light. You can choose which mode you want to be on, selecting from the red light, yellow, green, all of them, or all of them being white. It will be made out of plywood and some 3D printed things all designed by me. I might also add a bluetooth module, in which, you will be able to choose any colour you want from an app of my design.
 
+The reason I decided I wanted to make this was because while I was thinking of doing something else, I saw a DIY cardboard and paper traffic light in my friend's room and I thought a Traffic Light LED working lamp would be really cool as a gift for them, as they always make gifts for me, it would also be a really good way to start learning some hardware. So far it's been really fun and I'm really excited to see the final result, and to get to actually make it other than just models.
 
 
 <img width="1575" height="798" alt="Screenshot 2026-04-01 at 1 48 21 PM" src="https://github.com/user-attachments/assets/50f9382b-6d2a-43e4-b245-a46a9d365d50" />
