@@ -9,3 +9,4 @@ This is an LED light that looks like a traffic light. You can choose which mode 
 
 <img width="385" height="537" alt="Screenshot 2026-03-29 at 8 47 08 PM" src="https://github.com/user-attachments/assets/8a0b1396-6967-4493-ab07-d106c6d3995f" />
 
+<img width="1640" height="925" alt="Screenshot 2026-04-01 at 2 40 30 PM" src="https://github.com/user-attachments/assets/b436ebc3-592a-4792-9b3d-0fd51ddad857" />
