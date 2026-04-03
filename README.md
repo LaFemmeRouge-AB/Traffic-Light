@@ -4,6 +4,8 @@ This is an LED light that looks like a traffic light. You can choose which mode 
 The reason I decided I wanted to make this was because while I was thinking of doing something else, I saw a DIY cardboard and paper traffic light in my friend's room and I thought a Traffic Light LED working lamp would be really cool as a gift for them, as they always make gifts for me, it would also be a really good way to start learning some hardware. So far it's been really fun and I'm really excited to see the final result, and to get to actually make it other than just models.
 
 
+<img width="619" height="214" alt="Screenshot 2026-04-02 at 9 53 38 PM" src="https://github.com/user-attachments/assets/6e6464e8-a77e-426e-b486-be9a6e1fc116" />
+
 <img width="1575" height="798" alt="Screenshot 2026-04-01 at 1 48 21 PM" src="https://github.com/user-attachments/assets/50f9382b-6d2a-43e4-b245-a46a9d365d50" />
 
 <img width="1370" height="799" alt="Screenshot 2026-03-31 at 4 03 13 PM" src="https://github.com/user-attachments/assets/e31e9d27-52f4-476f-852c-e0f698321478" />
@@ -11,3 +13,4 @@ The reason I decided I wanted to make this was because while I was thinking of d
 <img width="385" height="537" alt="Screenshot 2026-03-29 at 8 47 08 PM" src="https://github.com/user-attachments/assets/8a0b1396-6967-4493-ab07-d106c6d3995f" />
 
 <img width="1640" height="925" alt="Screenshot 2026-04-01 at 2 40 30 PM" src="https://github.com/user-attachments/assets/b436ebc3-592a-4792-9b3d-0fd51ddad857" />
+
